@@ -5,6 +5,7 @@ import fallbackIfUndefined from '../utils/computed-fallback-if-undefined';
 
 export default Component.extend({
   layout,
+  tabindex: -1,
   // Config
   triggerComponent: fallbackIfUndefined('power-select-multiple/trigger'),
   beforeOptionsComponent: fallbackIfUndefined(null),
